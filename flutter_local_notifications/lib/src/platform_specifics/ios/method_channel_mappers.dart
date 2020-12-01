@@ -24,6 +24,7 @@ extension IOSNotificationCategoryMapper on IOSNotificationCategory {
       };
 }
 
+// ignore_for_file: public_member_api_docs
 extension IOSInitializationSettingsMapper on IOSInitializationSettings {
   Map<String, Object> toMap() => <String, Object>{
         'requestAlertPermission': requestAlertPermission,
